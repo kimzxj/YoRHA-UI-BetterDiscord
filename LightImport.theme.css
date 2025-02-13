@@ -1,42 +1,27 @@
-#app-mount {
-  background: url("https://github.com/kimzxj/YoRHA-UI-BetterDiscord/blob/masteer/assets/wallpapers/light-theme-1440.png") center/cover no-repeat;
-}
-
-.tutorialContainer__1f388 .svg_cc5dd2 {
-  background: url("https://github.com/kimzxj/YoRHA-UI-BetterDiscord/blob/masteer/assets/icons/home_light-theme.png") center/contain no-repeat;
-}
-
-#app-mount:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, rgba(78, 75, 66, 0.2), transparent 30%, transparent 80%, rgba(78, 75, 66, 0.4)), radial-gradient(transparent 50%, rgba(78, 75, 66, 0.4));
-  user-select: none;
-  pointer-events: none;
-}
-
+/**
+ * @name himiko have chill
+ * @author Request
+ * @version auto updates
+ * @description Theme was created in generator https://vsthemes.org/generator/
+ * @source https://vsthemes.org/en/skins/discord/30407-himiko-have-chill.html
+ * @authorLink https://vsthemes.org/user/Request/
+ * @authorId 2
+*/
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
 :root {
-  --color-high: rgb(218, 212, 187);
-  --color-low: rgb(87, 84, 74);
-  --color-mid: rgb(151, 147, 129);
-  --color-high-mid: rgb(183, 177, 156);
-  --color-alert: rgb(205, 102, 77);
-  --color-high-trans: rgba(218, 212, 187, 0.8);
-  --color-low-trans: rgba(87, 84, 74, 0.6);
-  --color-mid-trans: rgb(151, 147, 129, 0.5);
-  --color-alert-trans: rgba(205, 102, 77, 0.7);
-  --nier-font: sce-ps3_rodin_latinregular;
-  --selector-img: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png");
-  --selector-img-invert: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png");
-}
-
-::selection {
-  background-color: var(--color-alert);
-  color: var(--color-high);
-}
-
-.obscureWarning__54ab5 {
-  color: var(--color-high);
+    --transparencycolor: 0,0,0;
+    --transparencyalpha: 0.15;
+    --messagetransparency: 0.5;
+    --guildchanneltransparency: 0.2;
+    --memberlistransparency: 0;
+    --accentcolor: 213,59,238;
+    --background: url("https://vsthemes.org/uploads/posts/2021-04/1617443524_152598-esteticheskij_telefon_lofi-yu_li_cht_thi-linh_thn-lou_faj_muzyka-estetika-1920x1080.webp");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
 }
